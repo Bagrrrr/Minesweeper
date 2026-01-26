@@ -38,6 +38,7 @@
           "Children": [
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
 <<<<<<< Updated upstream
               "Title": "gg.cs",
@@ -59,6 +60,17 @@
               "WhenOpened": "2026-01-26T07:40:47.405Z",
 >>>>>>> Stashed changes
               "EditorCaption": ""
+=======
+              "DocumentIndex": 1,
+              "Title": "Minesweeper.csproj",
+              "DocumentMoniker": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
+              "RelativeDocumentMoniker": "Minesweeper\\Minesweeper.csproj",
+              "ToolTip": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
+              "RelativeToolTip": "Minesweeper\\Minesweeper.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-26T07:38:48.427Z"
+>>>>>>> origin/main
             },
             {
               "$type": "Document",
