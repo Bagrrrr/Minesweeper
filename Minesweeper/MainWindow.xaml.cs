@@ -20,6 +20,7 @@ namespace Minesweeper
         {
             InitializeComponent();
             // ahoj filipe
+            // čus
         }
     }
 }
