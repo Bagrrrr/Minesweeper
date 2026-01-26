@@ -12,8 +12,13 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 C:\Users\Uživatel\Documents\GitRepo\Minesweeper\Minesweeper\Minesweeper\App.xaml
 11407045341
 
+<<<<<<< Updated upstream
 71277777666
 198-1831388575
+=======
+71542904786
+198-192518753
+>>>>>>> Stashed changes
 MainWindow.xaml;
 
 False

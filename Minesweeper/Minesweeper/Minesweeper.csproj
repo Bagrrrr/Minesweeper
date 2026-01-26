@@ -9,7 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< Updated upstream
     <Folder Include="Model\" />
+=======
+    <Folder Include="View\" />
+>>>>>>> Stashed changes
     <Folder Include="ViewModel\" />
   </ItemGroup>
 

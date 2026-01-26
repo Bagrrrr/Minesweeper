@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper\\Minesweeper\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\minesweeper\\minesweeper\\minesweeper\\view\\gg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\view\\gg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -12,6 +13,13 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\minesweeper\\minesweeper\\minesweeper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+=======
+      "AbsoluteMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|o:\\semin\u00E1\u0159\\github\\minesweeper\\minesweeper\\minesweeper\\model\\aja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\model\\aja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|o:\\semin\u00E1\u0159\\github\\minesweeper\\minesweeper\\minesweeper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -31,6 +39,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
               "Title": "gg.cs",
               "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper\\Minesweeper\\Minesweeper\\View\\gg.cs",
               "RelativeDocumentMoniker": "Minesweeper\\View\\gg.cs",
@@ -39,24 +48,43 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T07:42:18.742Z",
+=======
+              "Title": "aja.cs",
+              "DocumentMoniker": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\Model\\aja.cs",
+              "RelativeDocumentMoniker": "Minesweeper\\Model\\aja.cs",
+              "ToolTip": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\Model\\aja.cs",
+              "RelativeToolTip": "Minesweeper\\Model\\aja.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T07:40:47.405Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
               "Title": "Minesweeper.csproj",
               "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
+=======
+              "DocumentIndex": 2,
+              "Title": "Minesweeper.csproj",
+              "DocumentMoniker": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
+>>>>>>> Stashed changes
               "RelativeDocumentMoniker": "Minesweeper\\Minesweeper.csproj",
               "ToolTip": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
               "RelativeToolTip": "Minesweeper\\Minesweeper.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-26T07:38:48.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T07:38:48.427Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 1,
+>>>>>>> Stashed changes
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper\\Minesweeper\\Minesweeper\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Minesweeper\\MainWindow.xaml",
@@ -68,7 +96,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
+=======
+              "DocumentIndex": 3,
+>>>>>>> Stashed changes
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper\\Minesweeper\\Minesweeper\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Minesweeper\\MainWindow.xaml.cs",
@@ -76,8 +108,7 @@
               "RelativeToolTip": "Minesweeper\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T07:38:23.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T07:38:23.405Z"
             }
           ]
         }
