@@ -19,13 +19,6 @@ namespace Minesweeper
         public MainWindow()
         {
             InitializeComponent();
-            // ahoj filipe
-<<<<<<< Updated upstream
-            // čus
-=======
-            // znovu pozdrav
-            // je3t2 dal39
->>>>>>> Stashed changes
         }
     }
 }
