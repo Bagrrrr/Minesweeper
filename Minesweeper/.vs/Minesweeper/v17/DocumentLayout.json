@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\",
+  "WorkspaceRootPath": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper\\Minesweeper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|o:\\semin\u00E1\u0159\\github\\minesweeper\\minesweeper\\minesweeper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\minesweeper\\minesweeper\\minesweeper\\view\\gg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\view\\gg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\minesweeper\\minesweeper\\minesweeper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\minesweeper\\minesweeper\\minesweeper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|o:\\semin\u00E1\u0159\\github\\minesweeper\\minesweeper\\minesweeper\\minesweeper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\minesweeper\\minesweeper\\minesweeper\\minesweeper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\minesweeper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|o:\\semin\u00E1\u0159\\github\\minesweeper\\minesweeper\\minesweeper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,28 +26,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Minesweeper",
-              "DocumentMoniker": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
+              "DocumentIndex": 0,
+              "Title": "gg.cs",
+              "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper\\Minesweeper\\Minesweeper\\View\\gg.cs",
+              "RelativeDocumentMoniker": "Minesweeper\\View\\gg.cs",
+              "ToolTip": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper\\Minesweeper\\Minesweeper\\View\\gg.cs",
+              "RelativeToolTip": "Minesweeper\\View\\gg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T07:42:18.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Minesweeper.csproj",
+              "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
               "RelativeDocumentMoniker": "Minesweeper\\Minesweeper.csproj",
-              "ToolTip": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
+              "ToolTip": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
               "RelativeToolTip": "Minesweeper\\Minesweeper.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-01-26T07:38:48.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper\\Minesweeper\\Minesweeper\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Minesweeper\\MainWindow.xaml",
-              "ToolTip": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper\\Minesweeper\\Minesweeper\\MainWindow.xaml",
               "RelativeToolTip": "Minesweeper\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-01-26T07:38:26.18Z",
@@ -51,13 +68,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper\\Minesweeper\\Minesweeper\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Minesweeper\\MainWindow.xaml.cs",
-              "ToolTip": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper\\Minesweeper\\Minesweeper\\MainWindow.xaml.cs",
               "RelativeToolTip": "Minesweeper\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T07:38:23.405Z",
               "EditorCaption": ""
