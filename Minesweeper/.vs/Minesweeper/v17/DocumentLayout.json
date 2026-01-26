@@ -27,15 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Minesweeper",
+              "Title": "Minesweeper.csproj",
               "DocumentMoniker": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
               "RelativeDocumentMoniker": "Minesweeper\\Minesweeper.csproj",
               "ToolTip": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
               "RelativeToolTip": "Minesweeper\\Minesweeper.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-26T07:38:48.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T07:38:48.427Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Minesweeper\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T07:38:23.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T07:38:23.405Z"
             }
           ]
         }
