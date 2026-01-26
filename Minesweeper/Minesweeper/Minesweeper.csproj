@@ -9,6 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+    <Folder Include="Model\" />
+=======
+    <Folder Include="View\" />
+>>>>>>> Stashed changes
+>>>>>>> origin/main
     <Folder Include="ViewModel\" />
     <Folder Include="View\" />
   </ItemGroup>

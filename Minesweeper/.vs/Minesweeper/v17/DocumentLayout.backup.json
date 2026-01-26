@@ -3,6 +3,16 @@
   "WorkspaceRootPath": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\",
   "Documents": [
     {
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+      "AbsoluteMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|o:\\semin\u00E1\u0159\\github\\minesweeper\\minesweeper\\minesweeper\\model\\aja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\model\\aja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> Stashed changes
+=======
+>>>>>>> origin/main
       "AbsoluteMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|o:\\semin\u00E1\u0159\\github\\minesweeper\\minesweeper\\minesweeper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{15AB79CC-8450-410F-AF34-772D14499620}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -31,6 +41,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "Trida.cs",
               "DocumentMoniker": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\Model\\Trida.cs",
               "RelativeDocumentMoniker": "Minesweeper\\Model\\Trida.cs",
@@ -39,6 +50,40 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T07:50:46.889Z",
+=======
+<<<<<<< HEAD
+              "Title": "Minesweeper",
+=======
+              "Title": "Minesweeper.csproj",
+>>>>>>> origin/main
+              "DocumentMoniker": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
+              "RelativeDocumentMoniker": "Minesweeper\\Minesweeper.csproj",
+              "ToolTip": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
+              "RelativeToolTip": "Minesweeper\\Minesweeper.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+<<<<<<< HEAD
+              "WhenOpened": "2026-01-26T07:38:48.427Z",
+              "EditorCaption": ""
+=======
+              "WhenOpened": "2026-01-26T07:38:48.427Z"
+>>>>>>> origin/main
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+              "Title": "aja.cs",
+              "DocumentMoniker": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\Model\\aja.cs",
+              "RelativeDocumentMoniker": "Minesweeper\\Model\\aja.cs",
+              "ToolTip": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\Model\\aja.cs",
+              "RelativeToolTip": "Minesweeper\\Model\\aja.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T07:40:47.405Z",
+>>>>>>> origin/main
               "EditorCaption": ""
             },
             {
@@ -55,7 +100,10 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+>>>>>>> Stashed changes
+=======
+>>>>>>> origin/main
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Minesweeper\\MainWindow.xaml",
@@ -67,7 +115,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+              "DocumentIndex": 2,
+=======
+              "DocumentIndex": 3,
+>>>>>>> Stashed changes
+=======
+              "DocumentIndex": 2,
+>>>>>>> origin/main
+>>>>>>> origin/main
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "O:\\Semin\u00E1\u0159\\GitHub\\Minesweeper\\Minesweeper\\Minesweeper\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Minesweeper\\MainWindow.xaml.cs",
