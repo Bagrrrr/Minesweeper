@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Minesweeper"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="550" Width="500">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="500"/>
+        </Grid.RowDefinitions>
 
+        <StackPanel Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0" Height="50" Width="500" >
+            <Button x:Name="StartGameButton" Content="Start Game" Width="100" Height="30" Margin="5" Command="{Binding StartCommand}"/>
+            <Label x:Name="MinesLeftTextBlock" Content="Mines Left:" VerticalAlignment="Center" Margin="5"/>
+            <Label x:Name="MinesCountTextBlock" Content="{Binding MinesLeft}" VerticalAlignment="Center" Margin="5"/>
+            <Label x:Name="TimerTextBlock" Content="Time:" VerticalAlignment="Center" Margin="5"/>
+            <Label x:Name="TimeCountTextBlock" Content="{Binding ElapsedTime}" VerticalAlignment="Center" Margin="5"/>
+        </StackPanel>
     </Grid>
 </Window>
