@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper2\\Minesweeper\\",
   "Documents": [
     {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{61A222AE-4D40-4639-93DD-6ED235E9D1F8}|Minesweeper.csproj|o:\\semin\u00E1\u0159\\github\\minesweeper\\minesweeper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-=======
+      "AbsoluteMoniker": "D:0:0:{61A222AE-4D40-4639-93DD-6ED235E9D1F8}|Minesweeper.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\minesweeper2\\minesweeper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61A222AE-4D40-4639-93DD-6ED235E9D1F8}|Minesweeper.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A222AE-4D40-4639-93DD-6ED235E9D1F8}|Minesweeper.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\minesweeper2\\minesweeper\\view\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A222AE-4D40-4639-93DD-6ED235E9D1F8}|Minesweeper.csproj|solutionrelative:view\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{61A222AE-4D40-4639-93DD-6ED235E9D1F8}|Minesweeper.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\minesweeper2\\minesweeper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61A222AE-4D40-4639-93DD-6ED235E9D1F8}|Minesweeper.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61A222AE-4D40-4639-93DD-6ED235E9D1F8}|Minesweeper.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\minesweeper2\\minesweeper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
->>>>>>> Stashed changes
-      "RelativeMoniker": "D:0:0:{61A222AE-4D40-4639-93DD-6ED235E9D1F8}|Minesweeper.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61A222AE-4D40-4639-93DD-6ED235E9D1F8}|Minesweeper.csproj|o:\\semin\u00E1\u0159\\github\\minesweeper\\minesweeper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61A222AE-4D40-4639-93DD-6ED235E9D1F8}|Minesweeper.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61A222AE-4D40-4639-93DD-6ED235E9D1F8}|Minesweeper.csproj|c:\\users\\u\u017Eivatel\\documents\\gitrepo\\minesweeper2\\minesweeper\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61A222AE-4D40-4639-93DD-6ED235E9D1F8}|Minesweeper.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper2\\Minesweeper\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper2\\Minesweeper\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-02T07:39:05.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "View.cs",
+              "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper2\\Minesweeper\\View\\View.cs",
+              "RelativeDocumentMoniker": "View\\View.cs",
+              "ToolTip": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper2\\Minesweeper\\View\\View.cs",
+              "RelativeToolTip": "View\\View.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T08:12:12.53Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -37,16 +61,12 @@
               "ToolTip": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper2\\Minesweeper\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-<<<<<<< Updated upstream
-              "WhenOpened": "2026-01-26T08:02:31.806Z",
+              "WhenOpened": "2026-01-26T08:11:00.473Z",
               "EditorCaption": ""
-=======
-              "WhenOpened": "2026-01-26T08:07:49.955Z"
->>>>>>> Stashed changes
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\U\u017Eivatel\\Documents\\GitRepo\\Minesweeper2\\Minesweeper\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -54,8 +74,7 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T08:07:50.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T08:11:00.903Z"
             }
           ]
         }
