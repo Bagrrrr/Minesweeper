@@ -19,10 +19,6 @@ namespace Minesweeper
         public MainWindow()
         {
             InitializeComponent();
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
         }
     }
 }

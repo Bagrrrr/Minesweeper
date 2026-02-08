@@ -8,23 +8,23 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Uživatel\\.nuget\\packages\\": {},
+    "C:\\Users\\Filip\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Uživatel\\Documents\\GitRepo\\Minesweeper2\\Minesweeper\\Minesweeper.csproj",
+      "projectUniqueName": "C:\\Users\\Filip\\Documents\\Git\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
       "projectName": "Minesweeper",
-      "projectPath": "C:\\Users\\Uživatel\\Documents\\GitRepo\\Minesweeper2\\Minesweeper\\Minesweeper.csproj",
-      "packagesPath": "C:\\Users\\Uživatel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Uživatel\\Documents\\GitRepo\\Minesweeper2\\Minesweeper\\obj\\",
+      "projectPath": "C:\\Users\\Filip\\Documents\\Git\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
+      "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Filip\\Documents\\Git\\Minesweeper\\Minesweeper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Uživatel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -75,7 +75,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
