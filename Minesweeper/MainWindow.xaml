@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Minesweeper"
         mc:Ignorable="d"
-        Title="MainWindow" Height="550" Width="500">
+        Title="MainWindow" Height="580" Width="550">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
@@ -60,21 +60,54 @@
 
             </Viewbox>
 
-            <UniformGrid x:Name="MinesGrid" Rows="10" Columns="10" Margin="10">
-            </UniformGrid>
-            <Rectangle x:Name="BackgroundBorder"
-           Width="500"
-           Canvas.Left="0" 
-           Canvas.Top="0"
-           Fill="Transparent"
-           StrokeThickness="10" Margin="0,0,0,15">
-                <Rectangle.Stroke>
-                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,10">
-                        <GradientStop Color="#EE4D4D4D" Offset="0.0" />
-                        <GradientStop Color="#808080" Offset="1.0" />
-                    </LinearGradientBrush>
-                </Rectangle.Stroke>
-            </Rectangle>
+            <ItemsControl ItemsSource="{Binding Cells}" Grid.Row="1" Margin="10">
+                
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Rows="10" Columns="10"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button Command="{Binding DataContext.RevealCommand, RelativeSource={RelativeSource AncestorType=ItemsControl}}"
+                                CommandParameter="{Binding}"
+                                Content="{Binding DisplayText}"
+                                FontSize="18" FontWeight="Bold">
+                            <Button.InputBindings>
+                                <MouseBinding MouseAction="RightClick" 
+                                              Command="{Binding DataContext.FlagCommand, RelativeSource={RelativeSource AncestorType=ItemsControl}}"
+                                              CommandParameter="{Binding}" />
+                            </Button.InputBindings>
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                    <Setter Property="Margin" Value="1"/>
+
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsRevealed}" Value="True">
+                                            <Setter Property="Background" Value="Transparent"/>
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding IsFlagged}" Value="True">
+                                            <Setter Property="Foreground" Value="OrangeRed"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding NeighborMines}" Value="1">
+                                            <Setter Property="Foreground" Value="Blue"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding NeighborMines}" Value="2">
+                                            <Setter Property="Foreground" Value="Green"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding NeighborMines}" Value="3">
+                                            <Setter Property="Foreground" Value="Red"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>         
         </Grid>
     </Grid>
 </Window>
