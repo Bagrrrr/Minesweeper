@@ -110,7 +110,7 @@
                                             <Setter Property="Foreground" Value="Blue"/>
                                         </DataTrigger>
                                         <DataTrigger Binding="{Binding NeighborMines}" Value="2">
-                                            <Setter Property="Foreground" Value="Green"/>
+                                            <Setter Property="Foreground" Value="Yellow"/>
                                         </DataTrigger>
                                         <DataTrigger Binding="{Binding NeighborMines}" Value="3">
                                             <Setter Property="Foreground" Value="Red"/>
