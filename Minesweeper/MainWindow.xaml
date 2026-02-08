@@ -33,13 +33,27 @@
                 Width="100" Height="30" 
                 Command="{Binding StartCommand}"/>
 
-            <StackPanel Grid.Column="2" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
-                <Label Content="Time:" Foreground="DarkSlateGray"
-                       FontWeight="Bold"/>
-                <Label Content="{Binding ElapsedTime}" 
-                   FontWeight="Bold" 
-                   ContentStringFormat="{}{0:mm\:ss}"/>
-            </StackPanel>
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+                    <Label Content="Time:" Foreground="DarkSlateGray"
+                           FontWeight="Bold"/>
+                    <Label Content="{Binding ElapsedTime}" 
+                           FontWeight="Bold" 
+                           ContentStringFormat="{}{0:mm\:ss}"/> 
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+                    <Label Content="Best time:" Foreground="DarkSlateGray"
+                           FontWeight="Bold"/>
+                    <Label Content="{Binding BestTime}" 
+                           FontWeight="Bold" 
+                           ContentStringFormat="{}{0:mm\:ss}"/>
+                </StackPanel>
+            </Grid>
+            
         </Grid>
 
         <Grid Grid.Row="1">

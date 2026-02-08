@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,6 +36,7 @@ namespace Minesweeper.ViewModel
         public ICommand FlagCommand { get; }
         public ICommand StartCommand { get; }
         public ICommand RevealCommand { get; }
+        public string BestTime { get; private set; }
 
         public MainViewModel()
         {
@@ -44,6 +46,8 @@ namespace Minesweeper.ViewModel
 
             _timer = new DispatcherTimer { Interval = TimeSpan.FromSeconds(1) };
             _timer.Tick += (s, e) => ElapsedTime = (DateTime.Now - _startTime).ToString(@"mm\:ss");
+
+            LoadBestTime();
         }
 
         private void SetupGame()
@@ -161,6 +165,8 @@ namespace Minesweeper.ViewModel
 
             if (win)
             {
+                // Uložíme skóre
+                SaveScore(ElapsedTime);
                 // Při výhře je hezké označit zbývající miny vlaječkami
                 foreach (var mine in Cells.Where(c => c.IsMine))
                 {
@@ -177,6 +183,51 @@ namespace Minesweeper.ViewModel
                 }
                 MessageBox.Show("BUM! Našel jsi minu. Hra končí.");
             }
+        }
+
+        private void SaveScore(string time)
+        {
+            try
+            {
+                string fileName = "best_times.txt";
+
+                // Formát řádku: Datum a čas dokončení + herní čas
+                string record = $"{DateTime.Now:dd.MM.yyyy HH:mm} - Čas: {time}{Environment.NewLine}";
+
+                // AppendAllText soubor vytvoří, pokud neexistuje, 
+                // a přidá nový záznam na konec, pokud už existuje.
+                File.AppendAllText(fileName, record);
+            }
+            catch (Exception ex)
+            {
+                // Pokud by se zápis nepovedl (např. chybějící práva), program nespadne
+                Debug.WriteLine($"Chyba při ukládání času: {ex.Message}");
+            }
+        }
+
+        private void LoadBestTime()
+        {
+            string fileName = "best_times.txt";
+            if (!File.Exists(fileName)) return;
+
+            try
+            {
+                var lines = File.ReadAllLines(fileName);
+                // Předpokládáme formát: "DD.MM.YYYY HH:mm - Čas: mm:ss"
+                // Zkusíme vytáhnout všechny časy a najít ten minimální
+                var times = lines
+                    .Select(line => line.Split(new[] { "Čas: " }, StringSplitOptions.None).LastOrDefault())
+                    .Where(t => !string.IsNullOrEmpty(t))
+                    .Select(t => TimeSpan.ParseExact(t.Trim(), @"mm\:ss", null))
+                    .ToList();
+
+                if (times.Any())
+                {
+                    var fastest = times.Min();
+                    BestTime = fastest.ToString(@"mm\:ss");
+                }
+            }
+            catch { /* Pokud je soubor poškozený, tiše ignorujeme */ }
         }
     }
 }
